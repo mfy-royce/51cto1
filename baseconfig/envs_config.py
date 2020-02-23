@@ -28,14 +28,33 @@ def envsConfig():
     print(context)
 
 def codeStyle():
+    """
+
+    jjjjjjj
+    """
     context = """ https://zh-google-styleguide.readthedocs.io/en/latest/google-python-styleguide/contents/
                     https://www.runoob.com/w3cnote/google-python-styleguide.html
                    https://github.com/mfy-royce 
     config pycharm : settings --> github git 
+    git-bash :  git config --global user.name  mfy-royce
+                git config --global user.email mfy-111@163.com
     """
     print(context)
 
+def gitConfig():
+    """
+    git-bash :  git config --global user.name  mfy-royce
+                git config --global user.email mfy-111@163.com
+                git config --list
+
+                ssh-keygen -t rsa -C "mfy-111-mfy@163.com"
+                git clone git@47.94.6.102:20200116322/course-info.git
+                git add --a
+                git commit  -m "测试"
+                git push -u origin master
+    """
 if __name__ =="__main__":
-    envsConfig()
-    codeStyle()
+    # envsConfig()
+    #     # codeStyle()
+    help(codeStyle)
 
